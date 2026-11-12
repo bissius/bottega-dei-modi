@@ -65,6 +65,20 @@ jobs:
           mkdir -p schermate
           "$exe" schermate
 
+      - name: Controlla la versione minima di macOS (11)
+        if: runner.os == 'macOS'
+        shell: bash
+        run: |
+          for f in "build/Bottega_artefacts/Release/Standalone/Bottega dei Modi.app/Contents/MacOS/Bottega dei Modi" \
+                   "build/Bottega_artefacts/Release/VST3/Bottega dei Modi.vst3/Contents/MacOS/Bottega dei Modi" \
+                   "build/Bottega_artefacts/Release/AU/Bottega dei Modi.component/Contents/MacOS/Bottega dei Modi"; do
+            echo "$f"
+            vtool -show-build "$f" | grep -E "architecture|minos"
+            if vtool -show-build "$f" | awk '/minos/ {split($2,v,"."); if (v[1] > 11) bad=1} END {exit !bad}'; then
+              echo "Compilato per una versione di macOS più recente di 11"; exit 1
+            fi
+          done
+
       - name: Prepara il pacchetto
         shell: bash
         run: |
