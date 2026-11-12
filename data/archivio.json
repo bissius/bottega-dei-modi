@@ -1,0 +1,2904 @@
+{
+ "versione": "0.4",
+ "nota": "Dati curati a mano. Intervalli in cents rispetto alla tonica. Gli indici dei gradi partono da 0; -1 = grado sotto la tonica, 7 = tonica all'ottava (per scale a 7 gradi). Le fonti sono riferimenti generali: i valori vanno verificati con un esperto prima di considerarli definitivi. I 'giri' sono armonizzazioni idiomatiche di partenza; per maqam e raga sono armonizzazioni moderne, non tradizionali. 'mobile' indica i gradi regolabili a orecchio (koron, seconda neutra). Groove da Bottega Zero.",
+ "modi": [
+  {
+   "id": "ionico",
+   "cultura": "Occidentale",
+   "nome": "Ionico (maggiore)",
+   "cents": [
+    0,
+    200,
+    400,
+    500,
+    700,
+    900,
+    1100
+   ],
+   "gerarchia": {
+    "tonica": 0,
+    "riposo": [
+     0,
+     4
+    ],
+    "cardini": [
+     2,
+     4
+    ],
+    "caratteristica": [
+     6
+    ]
+   },
+   "bordone": [
+    0,
+    700
+   ],
+   "ornamento": "vibrato",
+   "ritmi": [
+    "rock8",
+    "clave32"
+   ],
+   "testo": "La scala maggiore: la settima sensibile (a un semitono dalla tonica) tira con forza verso la risoluzione, per questo è il modo più 'conclusivo'.",
+   "fonti": [
+    "https://en.wikipedia.org/wiki/Mode_(music)"
+   ],
+   "giri": [
+    {
+     "gradi": [
+      0,
+      4,
+      5,
+      3
+     ],
+     "nome": "I–V–vi–IV: il giro pop/rock per eccellenza"
+    },
+    {
+     "gradi": [
+      0,
+      5,
+      1,
+      4
+     ],
+     "nome": "I–vi–ii–V: il giro soul e doo-wop"
+    },
+    {
+     "gradi": [
+      0,
+      3,
+      1,
+      4
+     ],
+     "nome": "I–IV–ii–V: gospel e R&B"
+    }
+   ]
+  },
+  {
+   "id": "dorico",
+   "cultura": "Occidentale",
+   "nome": "Dorico",
+   "cents": [
+    0,
+    200,
+    300,
+    500,
+    700,
+    900,
+    1000
+   ],
+   "gerarchia": {
+    "tonica": 0,
+    "riposo": [
+     0,
+     4
+    ],
+    "cardini": [
+     2,
+     4
+    ],
+    "caratteristica": [
+     5
+    ]
+   },
+   "bordone": [
+    0,
+    700
+   ],
+   "ornamento": "vibrato",
+   "ritmi": [
+    "rock8",
+    "clave32"
+   ],
+   "testo": "Minore con la sesta maggiore: la sesta 'luminosa' toglie il dramma al minore. È il modo del funk, del soul jazz e di molta musica celtica.",
+   "fonti": [
+    "https://en.wikipedia.org/wiki/Dorian_mode"
+   ],
+   "giri": [
+    {
+     "gradi": [
+      0,
+      3
+     ],
+     "nome": "i–IV: il vamp dorico (la sesta maggiore sta nel IV)"
+    },
+    {
+     "gradi": [
+      0,
+      6,
+      3,
+      0
+     ],
+     "nome": "i–♭VII–IV–i: folk e rock modale"
+    },
+    {
+     "gradi": [
+      0,
+      1
+     ],
+     "nome": "i–ii: vamp soul jazz, la sesta sta nel ii"
+    }
+   ]
+  },
+  {
+   "id": "frigio",
+   "cultura": "Occidentale",
+   "nome": "Frigio",
+   "cents": [
+    0,
+    100,
+    300,
+    500,
+    700,
+    800,
+    1000
+   ],
+   "gerarchia": {
+    "tonica": 0,
+    "riposo": [
+     0,
+     4
+    ],
+    "cardini": [
+     2,
+     4
+    ],
+    "caratteristica": [
+     1
+    ]
+   },
+   "bordone": [
+    0,
+    700
+   ],
+   "ornamento": "vibrato",
+   "ritmi": [
+    "compas12",
+    "rock8"
+   ],
+   "testo": "Minore con la seconda bemolle: il semitono sopra la tonica dà il colore scuro e 'spagnolo'. La nota caratteristica scende sulla tonica.",
+   "fonti": [
+    "https://en.wikipedia.org/wiki/Phrygian_mode"
+   ],
+   "giri": [
+    {
+     "gradi": [
+      0,
+      1
+     ],
+     "nome": "i–♭II: il semitono sopra la tonica, colore spagnolo e metal"
+    },
+    {
+     "gradi": [
+      0,
+      1,
+      2,
+      1
+     ],
+     "nome": "i–♭II–♭III–♭II: frigio \"che respira\""
+    },
+    {
+     "gradi": [
+      0,
+      6,
+      1,
+      0
+     ],
+     "nome": "i–♭vii–♭II–i"
+    }
+   ]
+  },
+  {
+   "id": "lidio",
+   "cultura": "Occidentale",
+   "nome": "Lidio",
+   "cents": [
+    0,
+    200,
+    400,
+    600,
+    700,
+    900,
+    1100
+   ],
+   "gerarchia": {
+    "tonica": 0,
+    "riposo": [
+     0,
+     4
+    ],
+    "cardini": [
+     2,
+     4
+    ],
+    "caratteristica": [
+     3
+    ]
+   },
+   "bordone": [
+    0,
+    700
+   ],
+   "ornamento": "vibrato",
+   "ritmi": [
+    "rock8",
+    "tarantella"
+   ],
+   "testo": "Maggiore con la quarta aumentata: sospeso e sognante, perché manca la quarta giusta che 'chiede' di scendere sulla terza. Presente anche nel canto popolare italiano.",
+   "fonti": [
+    "https://en.wikipedia.org/wiki/Lydian_mode"
+   ],
+   "giri": [
+    {
+     "gradi": [
+      0,
+      1
+     ],
+     "nome": "I–II: il vamp lidio, la quarta aumentata sta nel II"
+    },
+    {
+     "gradi": [
+      0,
+      1,
+      6,
+      0
+     ],
+     "nome": "I–II–vii–I"
+    },
+    {
+     "gradi": [
+      0,
+      4,
+      1,
+      0
+     ],
+     "nome": "I–V–II–I"
+    }
+   ]
+  },
+  {
+   "id": "misolidio",
+   "cultura": "Occidentale",
+   "nome": "Misolidio",
+   "cents": [
+    0,
+    200,
+    400,
+    500,
+    700,
+    900,
+    1000
+   ],
+   "gerarchia": {
+    "tonica": 0,
+    "riposo": [
+     0,
+     4
+    ],
+    "cardini": [
+     2,
+     4
+    ],
+    "caratteristica": [
+     6
+    ]
+   },
+   "bordone": [
+    0,
+    700
+   ],
+   "ornamento": "vibrato",
+   "ritmi": [
+    "rock8",
+    "tarantella"
+   ],
+   "testo": "Maggiore con la settima minore: niente sensibile, quindi la tonica è stabile senza 'dover risolvere'. Rock, blues, musica celtica e popolare.",
+   "fonti": [
+    "https://en.wikipedia.org/wiki/Mixolydian_mode"
+   ],
+   "giri": [
+    {
+     "gradi": [
+      0,
+      6,
+      3,
+      0
+     ],
+     "nome": "I–♭VII–IV–I: rock e celtico, niente sensibile"
+    },
+    {
+     "gradi": [
+      0,
+      6
+     ],
+     "nome": "I–♭VII: vamp misolidio"
+    },
+    {
+     "gradi": [
+      0,
+      3,
+      6,
+      0
+     ],
+     "nome": "I–IV–♭VII–I"
+    }
+   ]
+  },
+  {
+   "id": "eolio",
+   "cultura": "Occidentale",
+   "nome": "Eolio (minore naturale)",
+   "cents": [
+    0,
+    200,
+    300,
+    500,
+    700,
+    800,
+    1000
+   ],
+   "gerarchia": {
+    "tonica": 0,
+    "riposo": [
+     0,
+     4
+    ],
+    "cardini": [
+     2,
+     4
+    ],
+    "caratteristica": [
+     5
+    ]
+   },
+   "bordone": [
+    0,
+    700
+   ],
+   "ornamento": "vibrato",
+   "ritmi": [
+    "rock8",
+    "bembe12"
+   ],
+   "testo": "Il minore naturale: la sesta bemolle è la nota malinconica, e senza sensibile le cadenze restano morbide.",
+   "fonti": [
+    "https://en.wikipedia.org/wiki/Aeolian_mode"
+   ],
+   "giri": [
+    {
+     "gradi": [
+      0,
+      5,
+      6,
+      0
+     ],
+     "nome": "i–♭VI–♭VII–i: la cadenza eolia, epica"
+    },
+    {
+     "gradi": [
+      0,
+      6,
+      5,
+      6
+     ],
+     "nome": "i–♭VII–♭VI–♭VII"
+    },
+    {
+     "gradi": [
+      0,
+      5,
+      2,
+      6
+     ],
+     "nome": "i–♭VI–♭III–♭VII"
+    }
+   ]
+  },
+  {
+   "id": "locrio",
+   "cultura": "Occidentale",
+   "nome": "Locrio",
+   "cents": [
+    0,
+    100,
+    300,
+    500,
+    600,
+    800,
+    1000
+   ],
+   "gerarchia": {
+    "tonica": 0,
+    "riposo": [
+     0,
+     3
+    ],
+    "cardini": [
+     2,
+     3
+    ],
+    "caratteristica": [
+     4
+    ]
+   },
+   "bordone": [
+    0,
+    500
+   ],
+   "ornamento": "vibrato",
+   "ritmi": [
+    "rock8"
+   ],
+   "testo": "Quinta diminuita sulla tonica: è il modo più instabile, perché la tonica non ha una quinta giusta su cui appoggiarsi. Il bordone qui usa la quarta.",
+   "fonti": [
+    "https://en.wikipedia.org/wiki/Locrian_mode"
+   ],
+   "giri": [
+    {
+     "gradi": [
+      0,
+      1
+     ],
+     "nome": "i°–♭II: l'unico appoggio stabile è il ♭II"
+    },
+    {
+     "gradi": [
+      0,
+      1,
+      5,
+      1
+     ],
+     "nome": "i°–♭II–♭VI–♭II"
+    }
+   ]
+  },
+  {
+   "id": "minarm",
+   "cultura": "Occidentale",
+   "nome": "Minore armonica",
+   "cents": [
+    0,
+    200,
+    300,
+    500,
+    700,
+    800,
+    1100
+   ],
+   "gerarchia": {
+    "tonica": 0,
+    "riposo": [
+     0,
+     4
+    ],
+    "cardini": [
+     2,
+     4
+    ],
+    "caratteristica": [
+     6,
+     5
+    ]
+   },
+   "bordone": [
+    0,
+    700
+   ],
+   "ornamento": "vibrato",
+   "ritmi": [
+    "compas12",
+    "aksak9"
+   ],
+   "testo": "Minore con la sensibile: la seconda aumentata tra sesta e settima dà il colore 'orientale' usato anche nei Balcani e nel flamenco.",
+   "fonti": [
+    "https://en.wikipedia.org/wiki/Minor_scale"
+   ],
+   "giri": [
+    {
+     "gradi": [
+      0,
+      3,
+      4,
+      0
+     ],
+     "nome": "i–iv–V–i: la sensibile rende maggiore il V"
+    },
+    {
+     "gradi": [
+      0,
+      5,
+      4,
+      0
+     ],
+     "nome": "i–♭VI–V–i"
+    },
+    {
+     "gradi": [
+      0,
+      5,
+      1,
+      4
+     ],
+     "nome": "i–♭VI–ii°–V"
+    }
+   ]
+  },
+  {
+   "id": "minmel",
+   "cultura": "Occidentale",
+   "nome": "Minore melodica",
+   "cents": [
+    0,
+    200,
+    300,
+    500,
+    700,
+    900,
+    1100
+   ],
+   "gerarchia": {
+    "tonica": 0,
+    "riposo": [
+     0,
+     4
+    ],
+    "cardini": [
+     2,
+     4
+    ],
+    "caratteristica": [
+     5,
+     6
+    ]
+   },
+   "bordone": [
+    0,
+    700
+   ],
+   "ornamento": "vibrato",
+   "ritmi": [
+    "rock8",
+    "clave23"
+   ],
+   "testo": "Minore con sesta e settima maggiori (forma jazz, uguale in salita e discesa): terza minore e parte alta 'maggiore', molto usata nel jazz.",
+   "fonti": [
+    "https://en.wikipedia.org/wiki/Minor_scale"
+   ],
+   "giri": [
+    {
+     "gradi": [
+      0,
+      3,
+      4,
+      0
+     ],
+     "nome": "i–IV–V–i: IV e V maggiori, colore jazz"
+    },
+    {
+     "gradi": [
+      0,
+      1,
+      4,
+      0
+     ],
+     "nome": "i–ii–V–i"
+    },
+    {
+     "gradi": [
+      0,
+      3
+     ],
+     "nome": "i–IV: vamp minore \"luminoso\""
+    }
+   ]
+  },
+  {
+   "id": "rast",
+   "cultura": "Araba",
+   "nome": "Maqam Rast",
+   "cents": [
+    0,
+    200,
+    350,
+    500,
+    700,
+    900,
+    1050
+   ],
+   "discesa": {
+    "6": 1000
+   },
+   "gerarchia": {
+    "tonica": 0,
+    "riposo": [
+     0,
+     4
+    ],
+    "cardini": [
+     4
+    ],
+    "caratteristica": [
+     2,
+     6
+    ]
+   },
+   "salita": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "discesa_gradi": [
+    7,
+    6,
+    5,
+    4,
+    3,
+    2,
+    1,
+    0
+   ],
+   "frasi": [
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    [
+     4,
+     3,
+     2,
+     1,
+     0
+    ],
+    [
+     2,
+     1,
+     0
+    ],
+    [
+     4,
+     5,
+     6,
+     7
+    ]
+   ],
+   "bordone": [
+    0,
+    700
+   ],
+   "ornamento": "arabo",
+   "ritmi": [
+    "maqsum"
+   ],
+   "testo": "Terza e settima 'neutre', a metà tra maggiore e minore. La quinta (ghammaz) è il secondo polo; in discesa la settima si abbassa spesso a un bemolle pieno.",
+   "fonti": [
+    "https://www.maqamworld.com/en/maqam/rast.php"
+   ],
+   "giri": [
+    {
+     "gradi": [
+      0,
+      3,
+      4,
+      0
+     ],
+     "nome": "I–IV–V–I con terze neutre su I e V (armonizzazione moderna)"
+    },
+    {
+     "gradi": [
+      0,
+      3,
+      0,
+      4
+     ],
+     "nome": "I–IV–I–V"
+    }
+   ]
+  },
+  {
+   "id": "bayati",
+   "cultura": "Araba",
+   "nome": "Maqam Bayati",
+   "cents": [
+    0,
+    150,
+    300,
+    500,
+    700,
+    800,
+    1000
+   ],
+   "gerarchia": {
+    "tonica": 0,
+    "riposo": [
+     0,
+     3
+    ],
+    "cardini": [
+     3
+    ],
+    "caratteristica": [
+     1
+    ]
+   },
+   "salita": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "discesa_gradi": [
+    7,
+    6,
+    5,
+    4,
+    3,
+    2,
+    1,
+    0
+   ],
+   "frasi": [
+    [
+     0,
+     1,
+     2,
+     3
+    ],
+    [
+     3,
+     2,
+     1,
+     0
+    ],
+    [
+     1,
+     0
+    ],
+    [
+     3,
+     4,
+     5,
+     4,
+     3
+    ]
+   ],
+   "bordone": [
+    0,
+    700
+   ],
+   "ornamento": "arabo",
+   "ritmi": [
+    "maqsum"
+   ],
+   "testo": "Seconda neutra a 150 cents: il suono più tipico del Levante e dell'Egitto. Il polo secondario è la quarta, dove nasce il secondo tetracordo.",
+   "fonti": [
+    "https://www.maqamworld.com/en/maqam/bayati.php"
+   ],
+   "giri": [
+    {
+     "gradi": [
+      0,
+      3,
+      0
+     ],
+     "nome": "i–iv–i (armonizzazione moderna, pop arabo)"
+    },
+    {
+     "gradi": [
+      0,
+      5,
+      6,
+      0
+     ],
+     "nome": "i–♭VI–♭VII–i"
+    },
+    {
+     "gradi": [
+      0,
+      6,
+      0
+     ],
+     "nome": "i–♭VII–i"
+    }
+   ],
+   "mobile": {
+    "1": [
+     120,
+     180
+    ]
+   }
+  },
+  {
+   "id": "shur",
+   "cultura": "Persiana",
+   "nome": "Dastgah Shur",
+   "cents": [
+    0,
+    140,
+    300,
+    500,
+    700,
+    800,
+    1000
+   ],
+   "gerarchia": {
+    "tonica": 0,
+    "riposo": [
+     0
+    ],
+    "cardini": [
+     0
+    ],
+    "caratteristica": [
+     1
+    ]
+   },
+   "bordone": [
+    0,
+    700
+   ],
+   "ornamento": "tahrir",
+   "ritmi": [
+    "persiana",
+    "triphop"
+   ],
+   "mobile": {
+    "1": [
+     110,
+     180
+    ]
+   },
+   "giri": [
+    {
+     "gradi": [
+      0,
+      3,
+      0
+     ],
+     "nome": "i–iv–i (armonizzazione moderna, pop arabo)"
+    },
+    {
+     "gradi": [
+      0,
+      5,
+      6,
+      0
+     ],
+     "nome": "i–♭VI–♭VII–i"
+    },
+    {
+     "gradi": [
+      0,
+      6,
+      0
+     ],
+     "nome": "i–♭VII–i"
+    }
+   ],
+   "testo": "Il secondo grado è koron: abbassato di meno di un semitono rispetto al Mi naturale, a metà strada tra Mi♭ e Mi. È la nota che dà il colore persiano: la melodia ci gira intorno e ricade sulla tonica.",
+   "fonti": [
+    "Hormoz Farhat, The Dastgah Concept in Persian Music, Cambridge University Press, 1990",
+    "https://en.wikipedia.org/wiki/Shur_(Persian_music)"
+   ]
+  },
+  {
+   "id": "kurd",
+   "cultura": "Araba",
+   "nome": "Maqam Kurd",
+   "cents": [
+    0,
+    100,
+    300,
+    500,
+    700,
+    800,
+    1000
+   ],
+   "gerarchia": {
+    "tonica": 0,
+    "riposo": [
+     0,
+     3
+    ],
+    "cardini": [
+     3
+    ],
+    "caratteristica": [
+     1
+    ]
+   },
+   "bordone": [
+    0,
+    700
+   ],
+   "ornamento": "vibrato",
+   "ritmi": [
+    "maqsum",
+    "persiana"
+   ],
+   "giri": [
+    {
+     "gradi": [
+      0,
+      3,
+      0
+     ],
+     "nome": "i–iv–i (armonizzazione moderna, pop arabo)"
+    },
+    {
+     "gradi": [
+      0,
+      5,
+      6,
+      0
+     ],
+     "nome": "i–♭VI–♭VII–i"
+    },
+    {
+     "gradi": [
+      0,
+      6,
+      0
+     ],
+     "nome": "i–♭VII–i"
+    }
+   ],
+   "testo": "Tutto temperato: il secondo grado è un semitono pieno (Mi♭). È il parente 'senza quarto di tono' di Bayati: utile per sentire cosa aggiunge il koron.",
+   "fonti": [
+    "https://www.maqamworld.com/en/maqam/kurd.php"
+   ]
+  },
+  {
+   "id": "hijaz",
+   "cultura": "Araba",
+   "nome": "Maqam Hijaz",
+   "cents": [
+    0,
+    100,
+    400,
+    500,
+    700,
+    800,
+    1000
+   ],
+   "gerarchia": {
+    "tonica": 0,
+    "riposo": [
+     0,
+     3
+    ],
+    "cardini": [
+     3
+    ],
+    "caratteristica": [
+     1,
+     2
+    ]
+   },
+   "salita": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "discesa_gradi": [
+    7,
+    6,
+    5,
+    4,
+    3,
+    2,
+    1,
+    0
+   ],
+   "frasi": [
+    [
+     0,
+     1,
+     2,
+     3
+    ],
+    [
+     3,
+     2,
+     1,
+     0
+    ],
+    [
+     4,
+     3,
+     2,
+     1,
+     0
+    ],
+    [
+     2,
+     1,
+     0
+    ]
+   ],
+   "bordone": [
+    0,
+    700
+   ],
+   "ornamento": "arabo",
+   "ritmi": [
+    "maqsum",
+    "aksak9"
+   ],
+   "testo": "Seconda aumentata tra secondo e terzo grado: il colore 'orientale' più riconoscibile, parente del frigio dominante.",
+   "fonti": [
+    "https://www.maqamworld.com/en/maqam/hijaz.php"
+   ],
+   "giri": [
+    {
+     "gradi": [
+      0,
+      1,
+      0
+     ],
+     "nome": "I–♭II–I: il semitono di Hijaz nel basso"
+    },
+    {
+     "gradi": [
+      0,
+      3,
+      6,
+      0
+     ],
+     "nome": "I–iv–vii–I"
+    },
+    {
+     "gradi": [
+      0,
+      6,
+      0
+     ],
+     "nome": "I–vii–I"
+    }
+   ]
+  },
+  {
+   "id": "yaman",
+   "cultura": "Indiana",
+   "nome": "Raga Yaman",
+   "cents": [
+    0,
+    203.91,
+    386.31,
+    590.22,
+    701.96,
+    884.36,
+    1088.27
+   ],
+   "gerarchia": {
+    "tonica": 0,
+    "riposo": [
+     2,
+     1,
+     4,
+     6
+    ],
+    "cardini": [
+     2,
+     6
+    ],
+    "caratteristica": [
+     3
+    ]
+   },
+   "salita": [
+    -1,
+    1,
+    2,
+    3,
+    5,
+    6,
+    7
+   ],
+   "discesa_gradi": [
+    7,
+    6,
+    5,
+    4,
+    3,
+    2,
+    1,
+    0
+   ],
+   "frasi": [
+    [
+     -1,
+     1,
+     2,
+     1
+    ],
+    [
+     4,
+     1
+    ],
+    [
+     -1,
+     1,
+     0
+    ],
+    [
+     2,
+     3,
+     5,
+     6,
+     7
+    ]
+   ],
+   "bordone": [
+    0,
+    701.96
+   ],
+   "ornamento": "meend",
+   "ritmi": [
+    "teental",
+    "rupak"
+   ],
+   "testo": "Thaat Kalyan, con Ma tivra (quarta aumentata). In salita si salta il Pa e si parte spesso dal Ni basso; vadi Ga, samvadi Ni. Raga della sera.",
+   "fonti": [
+    "https://en.wikipedia.org/wiki/Yaman_(raga)",
+    "https://en.wikipedia.org/wiki/Shruti_(music)"
+   ],
+   "giri": [
+    {
+     "gradi": [
+      0,
+      1
+     ],
+     "nome": "I–II: la quarta aumentata (Ma tivra) sta nel II (armonizzazione moderna)"
+    },
+    {
+     "gradi": [
+      0,
+      4,
+      1,
+      0
+     ],
+     "nome": "I–V–II–I"
+    },
+    {
+     "gradi": [
+      0,
+      1,
+      6,
+      0
+     ],
+     "nome": "I–II–vii–I"
+    }
+   ]
+  },
+  {
+   "id": "bhairav",
+   "cultura": "Indiana",
+   "nome": "Raga Bhairav",
+   "cents": [
+    0,
+    111.73,
+    386.31,
+    498.04,
+    701.96,
+    813.69,
+    1088.27
+   ],
+   "gerarchia": {
+    "tonica": 0,
+    "riposo": [
+     0,
+     4
+    ],
+    "cardini": [
+     5,
+     1
+    ],
+    "caratteristica": [
+     1,
+     5
+    ]
+   },
+   "salita": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "discesa_gradi": [
+    7,
+    6,
+    5,
+    4,
+    3,
+    2,
+    1,
+    0
+   ],
+   "frasi": [
+    [
+     0,
+     2,
+     3,
+     4,
+     5,
+     4
+    ],
+    [
+     2,
+     3,
+     1,
+     0
+    ],
+    [
+     5,
+     5,
+     4
+    ],
+    [
+     3,
+     2,
+     1,
+     0
+    ]
+   ],
+   "andolan": [
+    1,
+    5
+   ],
+   "bordone": [
+    0,
+    701.96
+   ],
+   "ornamento": "meend",
+   "ritmi": [
+    "teental",
+    "jhaptal"
+   ],
+   "testo": "Re e Dha komal (bemolli) con terza maggiore. Le due note komal si suonano con andolan, una lenta oscillazione. Vadi Dha, samvadi Re. Raga dell'alba.",
+   "fonti": [
+    "https://en.wikipedia.org/wiki/Bhairav_(raga)",
+    "https://en.wikipedia.org/wiki/Shruti_(music)"
+   ],
+   "giri": [
+    {
+     "gradi": [
+      0,
+      1,
+      0
+     ],
+     "nome": "I–♭II–I: il Re komal nel basso (armonizzazione moderna)"
+    },
+    {
+     "gradi": [
+      0,
+      3,
+      0
+     ],
+     "nome": "I–iv–I"
+    },
+    {
+     "gradi": [
+      0,
+      3,
+      1,
+      0
+     ],
+     "nome": "I–iv–♭II–I"
+    }
+   ]
+  }
+ ],
+ "ritmi": [
+  {
+   "id": "triphop",
+   "cultura": "Groove",
+   "nome": "Trip hop",
+   "pulsazioni": 16,
+   "ppb": 4,
+   "gruppi": [
+    4,
+    4,
+    4,
+    4
+   ],
+   "accenti": [
+    3,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    2,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   "segni": [
+    "1",
+    "",
+    "",
+    "",
+    "2",
+    "",
+    "",
+    "",
+    "3",
+    "",
+    "",
+    "",
+    "4",
+    "",
+    "",
+    ""
+   ],
+   "bpm": 82,
+   "swing": 0.58,
+   "duck": 0.25,
+   "vinile": true,
+   "comp": "tenuto",
+   "stabs": null,
+   "tracks": {
+    "kick": [
+     [
+      0,
+      1
+     ],
+     [
+      7,
+      0.7
+     ],
+     [
+      10,
+      0.9
+     ]
+    ],
+    "snare": [
+     [
+      4,
+      1
+     ],
+     [
+      12,
+      1
+     ]
+    ],
+    "ghost": [
+     [
+      15,
+      0.18
+     ]
+    ],
+    "hat": [
+     [
+      0,
+      0.5
+     ],
+     [
+      2,
+      0.3
+     ],
+     [
+      4,
+      0.45
+     ],
+     [
+      6,
+      0.3
+     ],
+     [
+      8,
+      0.5
+     ],
+     [
+      10,
+      0.3
+     ],
+     [
+      12,
+      0.45
+     ],
+     [
+      14,
+      0.3
+     ]
+    ]
+   },
+   "bass": [
+    [
+     0,
+     5,
+     -1200,
+     1
+    ],
+    [
+     6,
+     1,
+     -1200,
+     0.55
+    ],
+    [
+     7,
+     2,
+     -1400,
+     0.8
+    ],
+    [
+     10,
+     4,
+     -1200,
+     0.9
+    ],
+    [
+     14,
+     2,
+     -1500,
+     0.7
+    ]
+   ],
+   "testo": "Tempo lento, swing marcato sui sedicesimi, rullante lungo nel riverbero e fruscio di vinile: lo spazio vuoto fa parte del groove.",
+   "fonti": []
+  },
+  {
+   "id": "persiana",
+   "cultura": "Groove",
+   "nome": "Persiana elettronica",
+   "pulsazioni": 16,
+   "ppb": 4,
+   "gruppi": [
+    4,
+    4,
+    4,
+    4
+   ],
+   "accenti": [
+    3,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    2,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   "segni": [
+    "1",
+    "",
+    "",
+    "",
+    "2",
+    "",
+    "",
+    "",
+    "3",
+    "",
+    "",
+    "",
+    "4",
+    "",
+    "",
+    ""
+   ],
+   "bpm": 92,
+   "swing": 0.52,
+   "duck": 0.4,
+   "vinile": false,
+   "comp": "tenuto",
+   "stabs": null,
+   "tracks": {
+    "kick": [
+     [
+      0,
+      1
+     ],
+     [
+      8,
+      0.9
+     ]
+    ],
+    "dafDum": [
+     [
+      0,
+      0.9
+     ],
+     [
+      6,
+      0.7
+     ],
+     [
+      10,
+      0.8
+     ]
+    ],
+    "dafTek": [
+     [
+      4,
+      0.8
+     ],
+     [
+      12,
+      0.9
+     ],
+     [
+      14,
+      0.5
+     ],
+     [
+      15,
+      0.4
+     ]
+    ],
+    "shaker": [
+     [
+      0,
+      0.45
+     ],
+     [
+      1,
+      0.2
+     ],
+     [
+      2,
+      0.3
+     ],
+     [
+      3,
+      0.2
+     ],
+     [
+      4,
+      0.45
+     ],
+     [
+      5,
+      0.2
+     ],
+     [
+      6,
+      0.3
+     ],
+     [
+      7,
+      0.2
+     ],
+     [
+      8,
+      0.45
+     ],
+     [
+      9,
+      0.2
+     ],
+     [
+      10,
+      0.3
+     ],
+     [
+      11,
+      0.2
+     ],
+     [
+      12,
+      0.45
+     ],
+     [
+      13,
+      0.2
+     ],
+     [
+      14,
+      0.3
+     ],
+     [
+      15,
+      0.2
+     ]
+    ]
+   },
+   "bass": [
+    [
+     0,
+     3,
+     -1200,
+     1
+    ],
+    [
+     3,
+     3,
+     -1200,
+     0.7
+    ],
+    [
+     6,
+     2,
+     -1200,
+     0.8
+    ],
+    [
+     8,
+     3,
+     -1200,
+     1
+    ],
+    [
+     11,
+     2,
+     -900,
+     0.7
+    ],
+    [
+     13,
+     3,
+     -1400,
+     0.8
+    ]
+   ],
+   "testo": "Cassa elettronica dritta e daf (tamburo a cornice) con i sonagli: il pulsare tipico dell'elettronica con strumenti persiani.",
+   "fonti": []
+  },
+  {
+   "id": "funk",
+   "cultura": "Groove",
+   "nome": "Funk jazz",
+   "pulsazioni": 16,
+   "ppb": 4,
+   "gruppi": [
+    4,
+    4,
+    4,
+    4
+   ],
+   "accenti": [
+    3,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    2,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   "segni": [
+    "1",
+    "",
+    "",
+    "",
+    "2",
+    "",
+    "",
+    "",
+    "3",
+    "",
+    "",
+    "",
+    "4",
+    "",
+    "",
+    ""
+   ],
+   "bpm": 98,
+   "swing": 0.54,
+   "duck": 0,
+   "vinile": false,
+   "comp": "accenti",
+   "stabs": [
+    [
+     0,
+     3
+    ],
+    [
+     6,
+     2
+    ],
+    [
+     11,
+     3
+    ]
+   ],
+   "tracks": {
+    "kick": [
+     [
+      0,
+      1
+     ],
+     [
+      3,
+      0.6
+     ],
+     [
+      8,
+      0.9
+     ],
+     [
+      10,
+      0.7
+     ]
+    ],
+    "snare": [
+     [
+      4,
+      1
+     ],
+     [
+      12,
+      1
+     ]
+    ],
+    "ghost": [
+     [
+      7,
+      0.22
+     ],
+     [
+      9,
+      0.18
+     ],
+     [
+      15,
+      0.22
+     ]
+    ],
+    "hat": [
+     [
+      0,
+      0.5
+     ],
+     [
+      1,
+      0.2
+     ],
+     [
+      2,
+      0.4
+     ],
+     [
+      3,
+      0.2
+     ],
+     [
+      4,
+      0.5
+     ],
+     [
+      5,
+      0.2
+     ],
+     [
+      6,
+      0.4
+     ],
+     [
+      7,
+      0.2
+     ],
+     [
+      8,
+      0.5
+     ],
+     [
+      9,
+      0.2
+     ],
+     [
+      10,
+      0.4
+     ],
+     [
+      11,
+      0.2
+     ],
+     [
+      12,
+      0.5
+     ],
+     [
+      13,
+      0.2
+     ],
+     [
+      14,
+      0.4
+     ],
+     [
+      15,
+      0.25
+     ]
+    ]
+   },
+   "bass": [
+    [
+     0,
+     2,
+     -1200,
+     1
+    ],
+    [
+     3,
+     1,
+     -1200,
+     0.6
+    ],
+    [
+     4,
+     1,
+     0,
+     0.75
+    ],
+    [
+     6,
+     2,
+     -1200,
+     0.9
+    ],
+    [
+     8,
+     1,
+     -1200,
+     0.8
+    ],
+    [
+     10,
+     2,
+     -1400,
+     0.8
+    ],
+    [
+     11,
+     1,
+     -1200,
+     0.7
+    ],
+    [
+     12,
+     2,
+     -900,
+     0.8
+    ],
+    [
+     14,
+     2,
+     -700,
+     0.8
+    ]
+   ],
+   "testo": "Sedicesimi di charleston, ghost note sul rullante e accordi a colpi brevi: il basso si muove di più, ma resta sulla tonica.",
+   "fonti": []
+  },
+  {
+   "id": "rock8",
+   "cultura": "Occidentale",
+   "nome": "Rock 4/4",
+   "pulsazioni": 8,
+   "ppb": 2,
+   "gruppi": [
+    2,
+    2,
+    2,
+    2
+   ],
+   "bpm": 96,
+   "colpi": [
+    "Dk",
+    "k",
+    "Tk",
+    "k",
+    "Dk",
+    "k",
+    "Tk",
+    "k"
+   ],
+   "accenti": [
+    3,
+    0,
+    2,
+    0,
+    2,
+    0,
+    2,
+    0
+   ],
+   "segni": [
+    "1",
+    "",
+    "2",
+    "",
+    "3",
+    "",
+    "4",
+    ""
+   ],
+   "testo": "Cassa sull'1 e sul 3, rullante sul 2 e sul 4, charleston a ottavi: il backbeat che regge rock, soul e funk.",
+   "fonti": [
+    "https://en.wikipedia.org/wiki/Backbeat"
+   ]
+  },
+  {
+   "id": "clave32",
+   "cultura": "Afro-cubana",
+   "nome": "Clave son 3-2",
+   "pulsazioni": 16,
+   "ppb": 4,
+   "gruppi": [
+    4,
+    4,
+    4,
+    4
+   ],
+   "bpm": 100,
+   "colpi": [
+    "Ck",
+    "",
+    "",
+    "C",
+    "k",
+    "",
+    "C",
+    "",
+    "k",
+    "",
+    "C",
+    "",
+    "Ck",
+    "",
+    "",
+    ""
+   ],
+   "accenti": [
+    3,
+    0,
+    0,
+    2,
+    1,
+    0,
+    2,
+    0,
+    1,
+    0,
+    2,
+    0,
+    2,
+    0,
+    0,
+    0
+   ],
+   "segni": [
+    "1",
+    "",
+    "",
+    "",
+    "2",
+    "",
+    "",
+    "",
+    "3",
+    "",
+    "",
+    "",
+    "4",
+    "",
+    "",
+    ""
+   ],
+   "testo": "Tre colpi nella prima battuta, due nella seconda. È la 'chiave' che organizza tutta la musica afro-cubana: ogni parte deve stare in fase con lei.",
+   "fonti": [
+    "https://en.wikipedia.org/wiki/Clave_(rhythm)"
+   ]
+  },
+  {
+   "id": "clave23",
+   "cultura": "Afro-cubana",
+   "nome": "Clave son 2-3",
+   "pulsazioni": 16,
+   "ppb": 4,
+   "gruppi": [
+    4,
+    4,
+    4,
+    4
+   ],
+   "bpm": 100,
+   "colpi": [
+    "k",
+    "",
+    "C",
+    "",
+    "Ck",
+    "",
+    "",
+    "",
+    "C",
+    "",
+    "",
+    "C",
+    "k",
+    "",
+    "C",
+    ""
+   ],
+   "accenti": [
+    1,
+    0,
+    2,
+    0,
+    2,
+    0,
+    0,
+    0,
+    3,
+    0,
+    0,
+    2,
+    1,
+    0,
+    2,
+    0
+   ],
+   "segni": [
+    "1",
+    "",
+    "",
+    "",
+    "2",
+    "",
+    "",
+    "",
+    "3",
+    "",
+    "",
+    "",
+    "4",
+    "",
+    "",
+    ""
+   ],
+   "testo": "La stessa clave partendo dal lato a due colpi. Cambia il punto di partenza della frase, non la figura.",
+   "fonti": [
+    "https://en.wikipedia.org/wiki/Clave_(rhythm)"
+   ]
+  },
+  {
+   "id": "bembe12",
+   "cultura": "Africana",
+   "nome": "Timeline a 12 (campana)",
+   "pulsazioni": 12,
+   "ppb": 3,
+   "gruppi": [
+    3,
+    3,
+    3,
+    3
+   ],
+   "bpm": 84,
+   "colpi": [
+    "CD",
+    "",
+    "C",
+    "",
+    "C",
+    "C",
+    "",
+    "C",
+    "",
+    "C",
+    "",
+    "C"
+   ],
+   "accenti": [
+    3,
+    0,
+    1,
+    0,
+    1,
+    2,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1
+   ],
+   "segni": [
+    "1",
+    "",
+    "",
+    "2",
+    "",
+    "",
+    "3",
+    "",
+    "",
+    "4",
+    "",
+    ""
+   ],
+   "testo": "La campana standard a 7 colpi su 12 pulsazioni dell'Africa occidentale: si sente sia in 4 battiti da 3 sia in 6 da 2, da qui la tensione 3 contro 2.",
+   "fonti": [
+    "https://en.wikipedia.org/wiki/Bell_pattern"
+   ]
+  },
+  {
+   "id": "teental",
+   "cultura": "Indiana",
+   "nome": "Teental (16)",
+   "pulsazioni": 16,
+   "ppb": 1,
+   "gruppi": [
+    4,
+    4,
+    4,
+    4
+   ],
+   "bpm": 120,
+   "colpi": [
+    "DT",
+    "DT",
+    "DT",
+    "DT",
+    "DT",
+    "DT",
+    "DT",
+    "DT",
+    "DT",
+    "T",
+    "T",
+    "T",
+    "T",
+    "DT",
+    "DT",
+    "DT"
+   ],
+   "accenti": [
+    3,
+    0,
+    0,
+    0,
+    2,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    2,
+    0,
+    0,
+    0
+   ],
+   "segni": [
+    "X Dha",
+    "Dhin",
+    "Dhin",
+    "Dha",
+    "2 Dha",
+    "Dhin",
+    "Dhin",
+    "Dha",
+    "0 Dha",
+    "Tin",
+    "Tin",
+    "Ta",
+    "3 Ta",
+    "Dhin",
+    "Dhin",
+    "Dha"
+   ],
+   "testo": "16 matra in quattro vibhag. Sam (X) sul primo, khali (0) sul nono: nella sezione khali i colpi gravi spariscono e il ciclo 'si svuota' prima di tornare al sam.",
+   "fonti": [
+    "https://en.wikipedia.org/wiki/Tala_(music)"
+   ]
+  },
+  {
+   "id": "jhaptal",
+   "cultura": "Indiana",
+   "nome": "Jhaptal (10)",
+   "pulsazioni": 10,
+   "ppb": 1,
+   "gruppi": [
+    2,
+    3,
+    2,
+    3
+   ],
+   "bpm": 110,
+   "colpi": [
+    "DT",
+    "T",
+    "DT",
+    "DT",
+    "T",
+    "T",
+    "T",
+    "DT",
+    "DT",
+    "T"
+   ],
+   "accenti": [
+    3,
+    0,
+    2,
+    0,
+    0,
+    1,
+    0,
+    2,
+    0,
+    0
+   ],
+   "segni": [
+    "X Dhi",
+    "Na",
+    "2 Dhi",
+    "Dhi",
+    "Na",
+    "0 Ti",
+    "Na",
+    "3 Dhi",
+    "Dhi",
+    "Na"
+   ],
+   "testo": "10 matra divisi 2+3+2+3: un ciclo zoppicante, molto usato nel canto classico.",
+   "fonti": [
+    "https://en.wikipedia.org/wiki/Tala_(music)"
+   ]
+  },
+  {
+   "id": "rupak",
+   "cultura": "Indiana",
+   "nome": "Rupak (7)",
+   "pulsazioni": 7,
+   "ppb": 1,
+   "gruppi": [
+    3,
+    2,
+    2
+   ],
+   "bpm": 110,
+   "colpi": [
+    "T",
+    "T",
+    "T",
+    "DT",
+    "T",
+    "DT",
+    "T"
+   ],
+   "accenti": [
+    3,
+    0,
+    0,
+    2,
+    0,
+    2,
+    0
+   ],
+   "segni": [
+    "X/0 Tin",
+    "Tin",
+    "Na",
+    "1 Dhi",
+    "Na",
+    "2 Dhi",
+    "Na"
+   ],
+   "testo": "7 matra 3+2+2. Particolarità: il sam coincide con il khali, quindi il ciclo parte 'vuoto', senza colpi gravi.",
+   "fonti": [
+    "https://en.wikipedia.org/wiki/Tala_(music)"
+   ]
+  },
+  {
+   "id": "dadra",
+   "cultura": "Indiana",
+   "nome": "Dadra (6)",
+   "pulsazioni": 6,
+   "ppb": 1,
+   "gruppi": [
+    3,
+    3
+   ],
+   "bpm": 100,
+   "colpi": [
+    "DT",
+    "DT",
+    "T",
+    "DT",
+    "T",
+    "T"
+   ],
+   "accenti": [
+    3,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   "segni": [
+    "X Dha",
+    "Dhi",
+    "Na",
+    "0 Dha",
+    "Ti",
+    "Na"
+   ],
+   "testo": "6 matra 3+3, il ciclo leggero della musica semi-classica e popolare.",
+   "fonti": [
+    "https://en.wikipedia.org/wiki/Tala_(music)"
+   ]
+  },
+  {
+   "id": "maqsum",
+   "cultura": "Araba",
+   "nome": "Maqsum",
+   "pulsazioni": 8,
+   "ppb": 2,
+   "gruppi": [
+    2,
+    2,
+    2,
+    2
+   ],
+   "bpm": 100,
+   "colpi": [
+    "D",
+    "T",
+    "",
+    "T",
+    "D",
+    "",
+    "T",
+    ""
+   ],
+   "accenti": [
+    3,
+    1,
+    0,
+    1,
+    2,
+    0,
+    1,
+    0
+   ],
+   "segni": [
+    "Dum",
+    "Tek",
+    "",
+    "Tek",
+    "Dum",
+    "",
+    "Tek",
+    ""
+   ],
+   "testo": "Il ritmo in 4/4 più comune della musica araba: dum grave, tek acuto, con il secondo dum a metà ciclo.",
+   "fonti": [
+    "https://www.maqamworld.com/en/iqaa/maqsum.php"
+   ]
+  },
+  {
+   "id": "aksak9",
+   "cultura": "Balcanica",
+   "nome": "9/8 (2+2+2+3)",
+   "pulsazioni": 9,
+   "ppb": 2,
+   "gruppi": [
+    2,
+    2,
+    2,
+    3
+   ],
+   "bpm": 120,
+   "colpi": [
+    "D",
+    "",
+    "T",
+    "",
+    "T",
+    "",
+    "D",
+    "",
+    "T"
+   ],
+   "accenti": [
+    3,
+    0,
+    1,
+    0,
+    1,
+    0,
+    2,
+    0,
+    0
+   ],
+   "segni": [
+    "1",
+    "",
+    "2",
+    "",
+    "3",
+    "",
+    "4",
+    "",
+    ""
+   ],
+   "testo": "Metro 'zoppo' (aksak): tre battiti brevi e uno lungo. L'ultimo gruppo da tre crea lo slancio verso l'inizio del ciclo.",
+   "fonti": [
+    "https://en.wikipedia.org/wiki/Aksak"
+   ]
+  },
+  {
+   "id": "kopanitsa",
+   "cultura": "Balcanica",
+   "nome": "Kopanitsa 11/8",
+   "pulsazioni": 11,
+   "ppb": 2,
+   "gruppi": [
+    2,
+    2,
+    3,
+    2,
+    2
+   ],
+   "bpm": 130,
+   "colpi": [
+    "D",
+    "",
+    "T",
+    "",
+    "D",
+    "",
+    "",
+    "T",
+    "",
+    "T",
+    ""
+   ],
+   "accenti": [
+    3,
+    0,
+    1,
+    0,
+    2,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   "segni": [
+    "1",
+    "",
+    "2",
+    "",
+    "3",
+    "",
+    "",
+    "4",
+    "",
+    "5",
+    ""
+   ],
+   "testo": "11/8 diviso 2+2+3+2+2: il battito lungo sta al centro. Danza bulgara.",
+   "fonti": [
+    "https://en.wikipedia.org/wiki/Kopanitsa"
+   ]
+  },
+  {
+   "id": "kalamatianos",
+   "cultura": "Greca",
+   "nome": "Kalamatianos 7/8",
+   "pulsazioni": 7,
+   "ppb": 2,
+   "gruppi": [
+    3,
+    2,
+    2
+   ],
+   "bpm": 120,
+   "colpi": [
+    "D",
+    "",
+    "",
+    "T",
+    "",
+    "T",
+    ""
+   ],
+   "accenti": [
+    3,
+    0,
+    0,
+    1,
+    0,
+    2,
+    0
+   ],
+   "segni": [
+    "1",
+    "",
+    "",
+    "2",
+    "",
+    "3",
+    ""
+   ],
+   "testo": "7/8 diviso 3+2+2, con il battito lungo all'inizio: la danza in cerchio più diffusa in Grecia.",
+   "fonti": [
+    "https://en.wikipedia.org/wiki/Kalamatianos"
+   ]
+  },
+  {
+   "id": "tarantella",
+   "cultura": "Italiana",
+   "nome": "Tarantella 6/8",
+   "pulsazioni": 6,
+   "ppb": 3,
+   "gruppi": [
+    3,
+    3
+   ],
+   "bpm": 120,
+   "colpi": [
+    "D",
+    "k",
+    "k",
+    "T",
+    "k",
+    "k"
+   ],
+   "accenti": [
+    3,
+    0,
+    0,
+    2,
+    0,
+    0
+   ],
+   "segni": [
+    "1",
+    "",
+    "",
+    "2",
+    "",
+    ""
+   ],
+   "testo": "Due battiti ternari per ciclo, con il tamburello che riempie ogni ottavo: un moto continuo e circolare.",
+   "fonti": [
+    "https://en.wikipedia.org/wiki/Tarantella"
+   ]
+  },
+  {
+   "id": "compas12",
+   "cultura": "Flamenco",
+   "nome": "Compás a 12 (soleá)",
+   "pulsazioni": 12,
+   "ppb": 1,
+   "gruppi": [
+    3,
+    3,
+    2,
+    2,
+    2
+   ],
+   "bpm": 170,
+   "colpi": [
+    "k",
+    "k",
+    "T",
+    "k",
+    "k",
+    "T",
+    "k",
+    "T",
+    "k",
+    "T",
+    "k",
+    "DT"
+   ],
+   "accenti": [
+    0,
+    0,
+    2,
+    0,
+    0,
+    2,
+    0,
+    2,
+    0,
+    2,
+    0,
+    3
+   ],
+   "segni": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12"
+   ],
+   "testo": "Accenti su 3, 6, 8, 10 e 12: un 3+3+2+2+2 dove il ciclo 'chiude' sul 12. Si conta partendo dal 12.",
+   "fonti": [
+    "https://en.wikipedia.org/wiki/Comp%C3%A1s"
+   ]
+  }
+ ],
+ "ricchi": [
+  {
+   "id": "pedale",
+   "nome": "Pedale modale",
+   "testo": "Il basso resta sulla tonica e sopra cambiano i colori: i, ♭VI, iv, ♭VII. Il centro non si sposta mai, come nella musica modale persiana.",
+   "slots": [
+    {
+     "deg": 0,
+     "ext": "11",
+     "dur": 2,
+     "bass": "radice"
+    },
+    {
+     "deg": 5,
+     "ext": "9",
+     "dur": 2,
+     "bass": "pedale"
+    },
+    {
+     "deg": 3,
+     "ext": "9",
+     "dur": 2,
+     "bass": "pedale"
+    },
+    {
+     "deg": 6,
+     "ext": "7sus4",
+     "dur": 1,
+     "bass": "pedale"
+    },
+    {
+     "deg": 0,
+     "ext": "11",
+     "dur": 1,
+     "bass": "radice"
+    }
+   ]
+  },
+  {
+   "id": "discesa",
+   "nome": "Discesa",
+   "testo": "Il basso scende per gradi (i, ♭VII, ♭VI) e poi risale con iv e ♭VII: la linea lamentosa del trip hop.",
+   "slots": [
+    {
+     "deg": 0,
+     "ext": "11",
+     "dur": 2,
+     "bass": "radice"
+    },
+    {
+     "deg": 6,
+     "ext": "9sus4",
+     "dur": 2,
+     "bass": "radice"
+    },
+    {
+     "deg": 5,
+     "ext": "9",
+     "dur": 2,
+     "bass": "radice"
+    },
+    {
+     "deg": 3,
+     "ext": "11",
+     "dur": 1,
+     "bass": "radice"
+    },
+    {
+     "deg": 6,
+     "ext": "7sus4",
+     "dur": 1,
+     "bass": "radice"
+    }
+   ]
+  },
+  {
+   "id": "jazz",
+   "nome": "Ciclo jazz",
+   "testo": "i, iv, ♭VII, ♭III, ♭VI: le radici si muovono per quarte come nel jazz, con accordi estesi presi dal modo.",
+   "slots": [
+    {
+     "deg": 0,
+     "ext": "11",
+     "dur": 2,
+     "bass": "radice"
+    },
+    {
+     "deg": 3,
+     "ext": "9",
+     "dur": 2,
+     "bass": "radice"
+    },
+    {
+     "deg": 6,
+     "ext": "9sus4",
+     "dur": 2,
+     "bass": "radice"
+    },
+    {
+     "deg": 2,
+     "ext": "69",
+     "dur": 1,
+     "bass": "radice"
+    },
+    {
+     "deg": 5,
+     "ext": "9",
+     "dur": 1,
+     "bass": "radice"
+    }
+   ]
+  },
+  {
+   "id": "vamp",
+   "nome": "Vamp ipnotico",
+   "testo": "Due accordi alternati sulla tonica ferma: la ripetizione crea l'ipnosi, come nel funk e nell'elettronica.",
+   "slots": [
+    {
+     "deg": 0,
+     "ext": "11",
+     "dur": 1,
+     "bass": "radice"
+    },
+    {
+     "deg": 6,
+     "ext": "9sus4",
+     "dur": 1,
+     "bass": "pedale"
+    },
+    {
+     "deg": 0,
+     "ext": "11",
+     "dur": 1,
+     "bass": "radice"
+    },
+    {
+     "deg": 6,
+     "ext": "9sus4",
+     "dur": 1,
+     "bass": "pedale"
+    },
+    {
+     "deg": 0,
+     "ext": "11",
+     "dur": 1,
+     "bass": "radice"
+    },
+    {
+     "deg": 6,
+     "ext": "9sus4",
+     "dur": 1,
+     "bass": "pedale"
+    },
+    {
+     "deg": 0,
+     "ext": "11",
+     "dur": 1,
+     "bass": "radice"
+    },
+    {
+     "deg": 5,
+     "ext": "9",
+     "dur": 1,
+     "bass": "pedale"
+    }
+   ]
+  }
+ ],
+ "mosse": [
+  {
+   "id": "domsec",
+   "nome": "Dominante secondaria",
+   "stile": "Jazz, soul, bossa",
+   "testo": "Mette prima dell'accordo successivo la sua dominante (V7 di quell'accordo): per un attimo quell'accordo suona come una tonica."
+  },
+  {
+   "id": "tritono",
+   "nome": "Sostituzione di tritono",
+   "stile": "Jazz",
+   "testo": "Al posto della dominante dell'accordo successivo usa il 7 a un tritono di distanza: stesse note guida, ma il basso scende di semitono."
+  },
+  {
+   "id": "scambio",
+   "nome": "Scambio modale",
+   "stile": "Pop, cinema, rock",
+   "testo": "Prende lo stesso grado dal modo parallelo (maggiore o minore) sulla stessa tonica: il centro resta, cambia la luce."
+  },
+  {
+   "id": "cromatico",
+   "nome": "Salita cromatica del basso",
+   "stile": "Gospel, soul, Motown",
+   "testo": "Inserisce un diminuito di passaggio un semitono sotto l'accordo successivo: il basso sale per semitoni e trascina l'armonia."
+  },
+  {
+   "id": "mezzotono",
+   "nome": "Salita di mezzo tono",
+   "stile": "Pop, gospel",
+   "testo": "Dall'accordo successivo in poi tutto sale di un semitono: un'iniezione di energia brusca e riconoscibile."
+  },
+  {
+   "id": "pivot",
+   "nome": "Accordo pivot",
+   "stile": "Classica, jazz, pop",
+   "testo": "Usa l'accordo scelto, che appartiene a due tonalità, come porta: dopo di lui il giro continua nella nuova tonalità."
+  },
+  {
+   "id": "scala",
+   "nome": "Cambio di scala",
+   "stile": "Maqam, raga, modale",
+   "testo": "Stessa tonica, scala diversa dall'accordo scelto in poi: cambiano alcune note e quindi il colore, non il centro."
+  }
+ ]
+}
